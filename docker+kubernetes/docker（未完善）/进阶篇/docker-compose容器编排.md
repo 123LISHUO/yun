@@ -1,4 +1,4 @@
-# 🐳docker-compose容器编排
+# 🐳[docker-compose容器编排](https://www.cnblogs.com/youclk/p/8453526.html)
 
 一个一个容器的管理用docker，多个容器的管理用docker-compose
 说白了，就是为了快速安装软件，编写了安装脚本，为了运行脚本和开启软件，而编写了yaml文件。而我们在一台新的电脑上运行编写好的LNMP.yaml脚本，我们就可以安装好LAMP架构。【我们使用dockerfile脚本安装和配置软件，每次安装软件，都要开启 ，这么多的软件，开开关关很麻烦，所以呢，我们就写一个docker-compose.yaml文件，来运行多个dockerfile的同时，也开启多个软件(创建容器实例)，就好比在运行一个软件一样。】
@@ -147,4 +147,3 @@ commands：
 ```
 ## Yaml简介
 [使用](https://www.cnblogs.com/RioTian/p/15872725.html)
-

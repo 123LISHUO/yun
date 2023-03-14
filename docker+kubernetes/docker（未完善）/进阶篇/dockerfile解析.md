@@ -1,4 +1,4 @@
-# 🐳Dockerfile(用来自定义镜像)
+# 🐳[Dockerfile](https://www.cnblogs.com/edisonchou/p/dockerfile_inside_introduction.html)(用来自定义镜像)
 [大佬文档](https://blog.csdn.net/m0_46090675/article/details/121846718?)
 dockerfile就是用来组成我们pull下来的那些镜像，那些镜像就是用dockerfile组成的，可以比作shell脚本，然后我们只需要运行脚本就可以把我们想要的软件安装好。而docker的容器实例可以看做，docker分割出一个个空间，每个实例就是运行在不同的空间(可以看成在不同的电脑上使用脚本安装软件，但是用的脚本都是一样的，我们把脚本放在云上，然后用的时候就可以（pull）下载下来)。
 
