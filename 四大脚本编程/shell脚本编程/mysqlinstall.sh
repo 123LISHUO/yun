@@ -49,12 +49,3 @@ cp support-files/mysql.server /etc/init.d/mysqld
 chmod +x /etc/init.d/mysqld
 /etc/init.d/mysqld start
 cd
-
-
-
-
-
-
-
-
-
